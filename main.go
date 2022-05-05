@@ -47,6 +47,11 @@ type MsgResp struct {
 	Msg  string `json:"msg" form:"msg"`
 }
 
+type Log struct {
+	Level string
+	Data  string
+}
+
 /**
 消息数据类型 JSON string
 消息结构 Message
